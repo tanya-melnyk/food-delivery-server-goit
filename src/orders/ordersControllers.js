@@ -120,7 +120,7 @@ exports.deleteOrder = async (req, res) => {
   const orderId = req.params.id;
 
   try {
-    const order = await Order.findById(OrderId);
+    const order = await Order.findById(orderId);
 
     // Make sure Order exists
     if (!Order) {
