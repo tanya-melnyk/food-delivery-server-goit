@@ -1,0 +1,31 @@
+{
+  "name": "food-delivery-server-goit",
+  "version": "1.1.0",
+  "description": "Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanya-melnyk/food-delivery-server-goit.git"
+  },
+  "keywords": [],
+  "author": "Tetiana Melnyk <tetiana.melnyk.ua@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.8",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/tanya-melnyk/food-delivery-server-goit/issues"
+  },
+  "homepage": "https://github.com/tanya-melnyk/food-delivery-server-goit#readme"
+}
