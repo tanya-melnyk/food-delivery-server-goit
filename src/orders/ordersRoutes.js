@@ -15,6 +15,9 @@ router.post(
     check('deliveryAdress', 'Delivery Adress is required')
       .not()
       .isEmpty(),
+    check('status')
+      .matches(/inProgress|declined|finished|failed/)
+      .withMessage('Choose correct order status'),
   ],
   ordersCtrls.addOrder,
 );

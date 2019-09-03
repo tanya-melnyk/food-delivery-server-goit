@@ -18,7 +18,10 @@ const orderSchema = new Schema({
     },
   ],
   deliveryType: String,
-  deliveryAdress: String,
+  deliveryAdress: {
+    type: String,
+    required: true,
+  },
   sumToPay: Number,
   status: String,
 });
